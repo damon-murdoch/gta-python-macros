@@ -20,7 +20,7 @@ def idle():
         print(f"Starting input loop {new_loops} ...")
 
         # Flick left on the left stick (change pose on seat)
-        gamepad.left_stick_and_release(gp, joystick["left"], joystick["neutral"])
+        gamepad.left_stick_and_release(gp, joystick["neutral"], joystick["up"])
 
         # Wait 'sleep' seconds
         time.sleep(sleep)
@@ -41,7 +41,7 @@ def idle():
     )
 
     print(
-        "Note: This script is best used while sitting at the lounge in the Bail Office / Night Club."
+        "Note: This script is best used while standing at the open safe in the Night Club."
     )
 
     # Loop Counter
