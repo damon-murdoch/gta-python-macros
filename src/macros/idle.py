@@ -1,6 +1,7 @@
 import time
 import keyboard
 import src.gamepad as gamepad
+from vgamepad import XUSB_BUTTON as button
 
 # from vgamepad import XUSB_BUTTON as button
 from src.gamepad import JOYSTICK_COORDINATES as joystick
@@ -11,8 +12,10 @@ IDLE_SLEEP = 60
 
 
 def input_gp(gp, delay=IDLE_SLEEP):
-    # Flick left on the left stick (Walk forwards)
+    # Flick up on the left stick (Walk forwards)
     gamepad.left_stick_and_release(gp, joystick["neutral"], joystick["up"])
+    # Press the 'b' button (For calls, etc.)
+    gamepad.press_and_release(gp, button.XUSB_GAMEPAD_B)
     time.sleep(delay)
 
 
