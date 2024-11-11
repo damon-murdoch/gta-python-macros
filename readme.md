@@ -8,7 +8,6 @@ This script automates idle actions in GTA Online, simulating periodic inputs to 
 
 ## Table of Contents
 
-- [Live Demo](#live-demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Future Changes](#future-changes)
@@ -16,10 +15,6 @@ This script automates idle actions in GTA Online, simulating periodic inputs to 
 - [Changelog](#changelog)
 - [Sponsor this Project](#sponsor-this-project)
 - [License](#license)
-
-## Live Demo
-
-No live demo is available for this project.
 
 ## Installation
 
