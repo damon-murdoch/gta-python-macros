@@ -1,6 +1,5 @@
 import time
 import vgamepad as vg
-from vgamepad import XUSB_BUTTON as button
 
 # Joystick Coordinates
 JOYSTICK_COORDINATES = {

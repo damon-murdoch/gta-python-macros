@@ -1,8 +1,5 @@
 import argparse
 
-import sys, time
-import vgamepad as vg
-
 from src.macros.idle import main as idle
 
 TITLE = "GTA Online Macro Script"
